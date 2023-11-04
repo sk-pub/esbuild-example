@@ -1,15 +1,18 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test shell</title>
   </head>
   <body>
     <x-hello />
 
-    <script async type="module">
+    <script type="module">
       await import("./dist/hello.js");
     </script>
 
-    <script async>
+    <script>
       // Live reload. See https://esbuild.github.io/api/#live-reload
       new EventSource("/esbuild").addEventListener("change", () =>
         location.reload()

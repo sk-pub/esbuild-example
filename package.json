@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && node ./build/build.mjs",
-    "start": "node ./build/start.mjs"
+    "start": "rimraf dist && node ./build/start.mjs"
   },
   "author": "",
   "license": "ISC",

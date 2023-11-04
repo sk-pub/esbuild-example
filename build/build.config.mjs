@@ -1,11 +1,9 @@
 export default {
-  entryPoints: ["./src/index.ts"],
+  entryPoints: [], // Different for `npm build` and `npm start`
   bundle: true,
-  sourcemap: true,
   format: "esm",
   outdir: "./dist",
   target: "es2020",
   minify: true,
   treeShaking: true,
-  plugins: [],
 };

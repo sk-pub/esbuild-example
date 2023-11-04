@@ -1,0 +1,15 @@
+{
+  "name": "esbuild-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && node build.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "0.19.5",
+    "rimraf": "^5.0.5"
+  }
+}

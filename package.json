@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rimraf dist && node build.mjs"
+    "build": "rimraf dist && node ./build/build.mjs",
+    "start": "node ./build/start.mjs"
   },
   "author": "",
   "license": "ISC",

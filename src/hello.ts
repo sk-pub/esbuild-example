@@ -20,6 +20,6 @@ class Hello extends HTMLElement {
   }
 }
 
-globalThis.customElements.define('x-hello', Hello);
+globalThis.customElements.define("x-hello", Hello);
 
 export default Hello;

@@ -5,5 +5,5 @@ export default {
   outdir: "./dist",
   target: "es2020",
   minify: true,
-  treeShaking: true,
+  treeShaking: true
 };

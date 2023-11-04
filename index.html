@@ -1,14 +1,16 @@
 <html>
-    <head>
-        <title>Test shell</title>
-    </head>
-    <body>
-        <x-hello />
+  <head>
+    <title>Test shell</title>
+  </head>
+  <body>
+    <x-hello />
 
-        <script async type="module" src="./dist/index.js"></script>
-        <script>
-            // Live reload. See https://esbuild.github.io/api/#live-reload
-            new EventSource('/esbuild').addEventListener('change', () => location.reload())
-        </script>
-    </body>
+    <script async type="module" src="./dist/index.js"></script>
+    <script>
+      // Live reload. See https://esbuild.github.io/api/#live-reload
+      new EventSource("/esbuild").addEventListener("change", () =>
+        location.reload()
+      );
+    </script>
+  </body>
 </html>

@@ -5,8 +5,11 @@
   <body>
     <x-hello />
 
-    <script async type="module" src="./dist/index.js"></script>
-    <script>
+    <script async type="module">
+      await import("./dist/hello.js");
+    </script>
+
+    <script async>
       // Live reload. See https://esbuild.github.io/api/#live-reload
       new EventSource("/esbuild").addEventListener("change", () =>
         location.reload()

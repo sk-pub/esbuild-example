@@ -3,7 +3,6 @@ import buildConfig from "./build.config.mjs";
 
 const context = await esbuild.context(
   Object.assign(buildConfig, {
-    entryPoints: ["./src/index.ts"],
     sourcemap: true
   })
 );

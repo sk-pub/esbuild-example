@@ -1,5 +1,5 @@
 export default {
-  entryPoints: [], // Different for `npm build` and `npm start`
+  entryPoints: ["./src/hello.ts"],
   bundle: true,
   format: "esm",
   outdir: "./dist",
